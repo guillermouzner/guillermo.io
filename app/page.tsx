@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import {ClientCard} from "@/components/client-card";
 import {GridCard} from "@/components/grid-card";
 import {Section} from "@/components/section";
@@ -97,7 +99,9 @@ export default function HomePage() {
       </Section>
       {/* Resume */}
       <Section emoji="👨‍💻" id="resume" title="Resume">
-        <GridCard bgImage="resume" colour="blue" description="PDF" title="Resume" />
+        <Link href="/resume">
+          <GridCard bgImage="resume" colour="blue" description="PDF" title="Resume" />
+        </Link>
       </Section>
     </>
   );
