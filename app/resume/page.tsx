@@ -28,7 +28,7 @@ export default function ResumePage() {
 
               <a
                 className="underline"
-                href="https://github.com/guillermouzner"
+                href="https://guillermo-io.vercel.app/"
                 rel="noreferrer"
                 target="_blank"
               >
