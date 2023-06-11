@@ -78,9 +78,26 @@ export default function HomePage() {
       </Section>
       {/* Contact */}
       <Section emoji="💻" id="contact" title="Contact">
-        <GridCard bgImage="github" colour="teal" title="Github" />
-        <GridCard bgImage="linkedin" colour="teal" description="Guillermo Uzner" title="Linkedin" />
-        <GridCard bgImage="mail" colour="teal" description="guillermouz16@gmail.com" title="Mail" />
+        <GridCard
+          bgImage="github"
+          colour="teal"
+          openLink="https://github.com/guillermouzner"
+          title="Github"
+        />
+        <GridCard
+          bgImage="linkedin"
+          colour="teal"
+          description="Guillermo Uzner"
+          openLink="https://www.linkedin.com/in/guillermo-uzner/"
+          title="Linkedin"
+        />
+        <GridCard
+          bgImage="mail"
+          colour="teal"
+          description="guillermouz16@gmail.com"
+          openLink="mailto:guillermouz16@gmail.com"
+          title="Mail"
+        />
       </Section>
       {/* Resume */}
       <Section emoji="👨‍💻" id="resume" title="Resume">
