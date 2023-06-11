@@ -1,9 +1,5 @@
-// import {Blog} from "@/components/blog";
 import {ClientCard} from "@/components/client-card";
-// import {Contact} from "@/components/contact";
 import {GridCard} from "@/components/grid-card";
-// import {Projects} from "@/components/projects";
-// import {Resume} from "@/components/resume";
 import {Section} from "@/components/section";
 
 export default function HomePage() {
