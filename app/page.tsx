@@ -7,10 +7,10 @@ import {Section} from "@/components/section";
 export default function HomePage() {
   return (
     <>
-      <section className="min-h-screen flex flex-col mt-20 md:mt-0 md:justify-center px-10 md:px-20 lg:px-48 gap-10">
+      <section className="min-h-screen flex flex-col mt-10 md:mt-0 md:justify-center px-10 md:px-20 lg:px-48 gap-10">
         <div className="font-bold">
-          <div className="text-2xl md:text-[50px]">Guillermo Uzner 🙋‍♂️</div>
-          <div>trying out cool stuff</div>
+          <div className="text-2xl md:text-[50px] text-white">Guillermo Uzner 🙋‍♂️</div>
+          <div className="text-white">trying out cool stuff</div>
         </div>
 
         <div className="grid md:grid-rows-2 grid-cols-1 md:grid-cols-4 md:grid-flow-col gap-4 h-52 md:h-72 text-black font-semibold cursor-pointer">
