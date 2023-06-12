@@ -25,7 +25,7 @@ export function GridCard({colour, title, description, bgImage, openLink, openRep
   return (
     <div
       className={cn(
-        "grid grid-cols-1 h-36 rounded-[48px]  transition-all hover:scale-95 hover:opacity-90 shadow-2xl cursor-pointer text-white",
+        "grid grid-cols-1 h-32 md:h-36 rounded-[48px]  transition-all hover:scale-95 hover:opacity-90 shadow-2xl cursor-pointer text-white",
         colour === "green" && "bg-green-500",
         colour === "indigo" && "bg-indigo-500",
         colour === "teal" && "bg-teal-500",

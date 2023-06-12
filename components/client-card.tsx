@@ -14,7 +14,7 @@ export function ClientCard({sectionId, children}: Props) {
   }
 
   return (
-    <div className="flex flex-col p-6 h-full justify-between" onClick={scrollToSection}>
+    <div className="flex flex-col md:p-6 p-5 h-full justify-between" onClick={scrollToSection}>
       {children}
     </div>
   );

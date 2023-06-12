@@ -7,19 +7,19 @@ import {Section} from "@/components/section";
 export default function HomePage() {
   return (
     <>
-      <section className="min-h-screen flex flex-col justify-center px-48 gap-10">
+      <section className="min-h-screen flex flex-col justify-center px-10 md:px-20 lg:px-48 gap-10">
         <div className="font-bold">
-          <div className="text-[50px]">Guillermo Uzner 🙋‍♂️</div>
+          <div className="text-4xl md:text-[50px]">Guillermo Uzner 🙋‍♂️</div>
           <div>trying out cool stuff</div>
         </div>
 
-        <div className="grid grid-rows-2 grid-cols-4 grid-flow-col gap-4 h-72 text-black font-semibold cursor-pointer">
+        <div className="grid grid-rows-2 grid-cols-4 grid-flow-col gap-4 h-60 md:h-72 text-black font-semibold cursor-pointer">
           <div
             className="col-span-2 row-span-2 rounded-[35px] bg-indigo-500 hover:shadow-indigo/20 
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="projects">
-              <h1 className="text-4xl">⚡</h1>
+              <h1 className="text-2xl md:text-4xl">⚡</h1>
               <h1 className="text-xl">Projects</h1>
             </ClientCard>
           </div>
@@ -28,8 +28,8 @@ export default function HomePage() {
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="contact">
-              <h1 className="text-4xl">💻</h1>
-              <h1 className="text-xl">Contact</h1>
+              <h1 className="text-xl md:text-4xl">💻</h1>
+              <h1 className="text-base md:text-xl">Contact</h1>
             </ClientCard>
           </div>
           <div
@@ -37,8 +37,8 @@ export default function HomePage() {
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="blog">
-              <h1 className="text-4xl">🧢</h1>
-              <h1 className="text-xl">Blog</h1>
+              <h1 className="text-2xl md:text-4xl">🧢</h1>
+              <h1 className="text-lg md:text-xl">Blog</h1>
             </ClientCard>
           </div>
           <div
@@ -46,8 +46,8 @@ export default function HomePage() {
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="resume">
-              <h1 className="text-4xl">👨‍💻</h1>
-              <h1 className="text-xl">Resume</h1>
+              <h1 className="text-xl md:text-4xl">👨‍💻</h1>
+              <h1 className="text-base md:text-xl">Resume</h1>
             </ClientCard>
           </div>
         </div>
