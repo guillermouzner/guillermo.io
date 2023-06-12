@@ -1,0 +1,10 @@
+/* Para navegadores basados en WebKit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Para Firefox */
+.scrollbar-hidden {
+  scrollbar-width: none;
+}

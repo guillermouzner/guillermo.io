@@ -1,10 +1,25 @@
+"use client";
+
+import "@/styles/editor.css";
+import {X} from "lucide-react";
+import {useRouter} from "next/navigation";
+
 import {Modal} from "@/components/modal";
 
 export default function ResumeModal() {
+  const router = useRouter();
+
   return (
     <Modal>
-      <div className="text-black min-h-screen">
-        <div className="bg-white min-h-screen w-full">
+      <div className="text-black max-h-[80vh] overflow-y-auto scrollbar-hidden rounded-3xl">
+        <button
+          autoFocus={false}
+          className="sticky right-4 top-4 z-30 float-right hidden rounded-full p-3  transition-all duration-75 hover:bg-gray-100 focus:outline-none active:scale-75 md:block"
+          onClick={() => router.back()}
+        >
+          <X className="h-6 w-6" />
+        </button>
+        <div className="bg-white w-full">
           <div className="p-24">
             <div className="flex flex-row justify-between items-baseline">
               <h1 className="text-2xl bg-sky-600 text-white px-3 rounded-lg font-bold">
@@ -29,12 +44,7 @@ export default function ResumeModal() {
                   [github]
                 </a>
 
-                <a
-                  className="underline"
-                  href="https://guillermo-io.vercel.app/"
-                  rel="noreferrer"
-                  target="_blank"
-                >
+                <a className="underline" href="https://guillermo-io.vercel.app/" rel="noreferrer">
                   [guillermouz.io]
                 </a>
               </div>

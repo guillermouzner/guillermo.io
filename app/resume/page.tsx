@@ -1,7 +1,7 @@
 export default function ResumePage() {
   return (
     <div className="bg-zinc-600 text-black min-h-screen">
-      <div className="bg-white min-h-screen mx-56">
+      <div className="bg-white mx-56">
         <div className="p-24">
           <div className="flex flex-row justify-between items-baseline">
             <h1 className="text-2xl bg-sky-600 text-white px-3 rounded-lg font-bold">
@@ -47,6 +47,7 @@ export default function ResumePage() {
             </p>
             <p>📱 (+54) 381 4987351</p>
           </div>
+
           {/* About */}
           <div className="my-8 flex flex-col gap-3">
             <h1 className="text-sky-600 font-bold text-xl">About</h1>

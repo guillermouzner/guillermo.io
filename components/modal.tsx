@@ -33,7 +33,7 @@ export function Modal({children}: Props) {
   }, [onKeyDown]);
 
   return (
-    <div className="mx-56">
+    <div className="mx-56 flex justify-center items-center min-h-screen">
       <div ref={wrapper} className="">
         {children}
       </div>
