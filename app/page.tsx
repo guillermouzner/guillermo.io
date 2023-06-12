@@ -19,8 +19,8 @@ export default function HomePage() {
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="projects">
-              <h1 className="text-2xl md:text-4xl">⚡</h1>
-              <h1 className="text-xl">Projects</h1>
+              <h1 className="text-xl md:text-4xl">⚡</h1>
+              <h1 className="text-base md:text-xl">Projects</h1>
             </ClientCard>
           </div>
           <div
@@ -37,8 +37,8 @@ export default function HomePage() {
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="blog">
-              <h1 className="text-2xl md:text-4xl">🧢</h1>
-              <h1 className="text-lg md:text-xl">Blog</h1>
+              <h1 className="text-xl md:text-4xl">🧢</h1>
+              <h1 className="text-base md:text-xl">Blog</h1>
             </ClientCard>
           </div>
           <div
