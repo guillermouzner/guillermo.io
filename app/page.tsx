@@ -7,15 +7,15 @@ import {Section} from "@/components/section";
 export default function HomePage() {
   return (
     <>
-      <section className="min-h-screen flex flex-col justify-center px-10 md:px-20 lg:px-48 gap-10">
+      <section className="min-h-screen flex flex-col mt-20 md:mt-0 md:justify-center px-10 md:px-20 lg:px-48 gap-10">
         <div className="font-bold">
-          <div className="text-4xl md:text-[50px]">Guillermo Uzner 🙋‍♂️</div>
+          <div className="text-2xl md:text-[50px]">Guillermo Uzner 🙋‍♂️</div>
           <div>trying out cool stuff</div>
         </div>
 
-        <div className="grid grid-rows-2 grid-cols-4 grid-flow-col gap-4 h-60 md:h-72 text-black font-semibold cursor-pointer">
+        <div className="grid md:grid-rows-2 grid-cols-1 md:grid-cols-4 md:grid-flow-col gap-4 h-52 md:h-72 text-black font-semibold cursor-pointer">
           <div
-            className="col-span-2 row-span-2 rounded-[35px] bg-indigo-500 hover:shadow-indigo/20 
+            className="md:col-span-2 md:row-span-2 rounded-[35px] bg-indigo-500 hover:shadow-indigo/20 
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="projects">
@@ -24,7 +24,7 @@ export default function HomePage() {
             </ClientCard>
           </div>
           <div
-            className="col-span-1 row-span-1 rounded-[35px] bg-teal-400 hover:shadow-teal/20 
+            className="md:col-span-1 md:row-span-1 rounded-[35px] bg-teal-400 hover:shadow-teal/20 
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="contact">
@@ -33,7 +33,7 @@ export default function HomePage() {
             </ClientCard>
           </div>
           <div
-            className="col-span-2 row-span-1 rounded-[35px] bg-green-400 hover:shadow-green/20 
+            className="md:col-span-2 md:row-span-1 rounded-[35px] bg-green-400 hover:shadow-green/20 
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="blog">
@@ -42,7 +42,7 @@ export default function HomePage() {
             </ClientCard>
           </div>
           <div
-            className="col-span-1 row-span-1 rounded-[35px] bg-blue-500 hover:shadow-blue/20 
+            className="md:col-span-1 md:row-span-1 rounded-[35px] bg-blue-500 hover:shadow-blue/20 
           transition-all hover:scale-95 hover:opacity-90 shadow-2xl"
           >
             <ClientCard sectionId="resume">

@@ -45,13 +45,13 @@ export function GridCard({colour, title, description, bgImage, openLink, openRep
       )}
     >
       <div
-        className="flex flex-col h-full justify-center items-start mx-16 gap-2"
+        className="flex flex-col h-full justify-center items-start mx-5 md:mx-16 gap-2"
         onClick={handleClick}
       >
         {content ? (
           <div className="flex flex-col">
-            <h1 className="text-lg font-bold">{`${title}`}</h1>
-            {description && <h1 className="font-semibold">{`${description}`}</h1>}
+            <h1 className="text-base md:text-lg font-bold">{`${title}`}</h1>
+            {description && <h1 className="text-sm md:font-semibold">{`${description}`}</h1>}
           </div>
         ) : (
           <div className="flex gap-10 font-bold">
