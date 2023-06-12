@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <section className="min-h-screen flex flex-col mt-10 md:mt-0 md:justify-center px-10 md:px-20 lg:px-48 gap-10">
-        <div className="font-bold">
+        <div className="font-bold flex flex-col gap-2">
           <div className="text-2xl md:text-[50px] text-white">Guillermo Uzner 🙋‍♂️</div>
           <div className="text-white">trying out cool stuff</div>
         </div>

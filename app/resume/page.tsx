@@ -1,7 +1,21 @@
+import {ChevronLeft} from "lucide-react";
+import Link from "next/link";
+
 export default function ResumePage() {
   return (
     <div className="bg-zinc-600 text-black min-h-screen lg:mx-56 md:mx-20 flex justify-center items-center">
       <div className="bg-white">
+        <div className="mt-7 bg-red-900">
+          <Link
+            className="sticky left-4 top-4 z-30 float-left rounded-full p-3  transition-all duration-75 hover:bg-gray-100 focus:outline-none active:scale-75 flex flex-row gap-3"
+            href="/"
+          >
+            <>
+              <ChevronLeft className="h-6 w-6" />
+              Back
+            </>
+          </Link>
+        </div>
         <div className="py-16 px-8  md:p-24">
           <div className="flex flex-col gap-4 xl:gap-0 xl:flex-row justify-between items-baseline">
             <h1 className="text-2xl bg-sky-600 text-white px-3 rounded-lg font-bold">
