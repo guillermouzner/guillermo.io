@@ -14,13 +14,13 @@ export default function ResumeModal() {
       <div className="text-black max-h-[80vh] overflow-y-auto scrollbar-hidden rounded-3xl">
         <button
           autoFocus={false}
-          className="sticky right-4 top-4 z-30 float-right hidden rounded-full p-3  transition-all duration-75 hover:bg-gray-100 focus:outline-none active:scale-75 md:block"
+          className="sticky right-4 top-4 z-30 float-right rounded-full p-3  transition-all duration-75 hover:bg-gray-100 focus:outline-none active:scale-75"
           onClick={() => router.back()}
         >
           <X className="h-6 w-6" />
         </button>
         <div className="bg-white w-full">
-          <div className="p-24">
+          <div className="py-16 px-8  md:p-24">
             <div className="flex flex-col gap-4 xl:gap-0 xl:flex-row justify-between items-baseline">
               <h1 className="text-2xl bg-sky-600 text-white px-3 rounded-lg font-bold">
                 Guillemo uzner
