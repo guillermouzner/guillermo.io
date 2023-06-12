@@ -17,9 +17,7 @@ export default function RootLayout({children}: RootLayoutProps) {
   return (
     <html suppressHydrationWarning lang="es">
       <head />
-      <body
-        className={cn("min-h-screen bg-[url('/grid.svg')] font-sans antialiased", inter.variable)}
-      >
+      <body className={cn("min-h-screen bg-black font-sans antialiased", inter.variable)}>
         <ThemeProvider enableSystem attribute="class" defaultTheme="system">
           {children}
           <TailwindIndicator />
