@@ -1,8 +1,8 @@
 export default function ResumePage() {
   return (
-    <div className="bg-zinc-600 text-black min-h-screen">
-      <div className="bg-white mx-56">
-        <div className="p-24">
+    <div className="bg-zinc-600 text-black min-h-screen lg:mx-56 md:mx-20 flex justify-center items-center">
+      <div className="bg-white">
+        <div className="py-16 px-8  md:p-24">
           <div className="flex flex-col gap-4 xl:gap-0 xl:flex-row justify-between items-baseline">
             <h1 className="text-2xl bg-sky-600 text-white px-3 rounded-lg font-bold">
               Guillemo uzner
